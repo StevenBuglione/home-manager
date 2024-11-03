@@ -23,6 +23,11 @@
     pkgs.fzf
     pkgs.multitail
     pkgs.bat
+    pkgs.trash-cli
+    pkgs.ripgrep
+    pkgs.helm
+    pkgs.kubectl
+    pkgs.ansible
   ];
 
   home.file = {
@@ -32,6 +37,10 @@
     ".config/kitty/kitty.conf".source = ./apps/kitty/kitty.conf;
     ".local/share/fonts/JetbrainsMono".source = ./apps/fonts/JetbrainsMono;
     ".ssh/config".source = ./apps/ssh/config;
+    ".zshrc".source = ./apps/zsh/.zshrc;
+    ".oh-my-zsh/custom/plugins/zsh-autosuggestions".source = ./apps/zsh/plugins/zsh-autosuggestions;
+    ".oh-my-zsh/custom/plugins/zsh-syntax-highlighting".source = ./apps/zsh/plugins/zsh-syntax-highlighting;
+    ".oh-my-zsh/custom/plugins/zsh-bat".source = ./apps/zsh/plugins/zsh-bat;
   };
 
   # Home Manager can also manage your environment variables through
@@ -53,6 +62,8 @@
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
+
+
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
