@@ -173,6 +173,8 @@ gcom() {
 	git add .
 	git commit -m "$1"
 }
+
+#Testing lazyg
 lazyg() {
 	git add .
 	git commit -m "$1"
