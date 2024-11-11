@@ -160,6 +160,9 @@ alias f="find . | grep "
 alias hmu='home-manager switch'
 alias k='kubectl'
 
+alias t='go-task'
+
+
 # Trim leading and trailing spaces (for scripts)
 trim() {
 	local var=$*

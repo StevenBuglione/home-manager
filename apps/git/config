@@ -1,0 +1,13 @@
+[commit]
+	gpgsign = true
+
+[gpg]
+	format = "ssh"
+
+[gpg "ssh"]
+	program = "/opt/1Password/op-ssh-sign"
+
+[user]
+	email = "stevenbuglione1@gmail.com"
+	name = "StevenBuglione"
+	signingKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIADXEW0ESKUfvgzAYIuHH/Rehcvhm8j4op7VlpLClfvC"

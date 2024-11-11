@@ -28,6 +28,7 @@
     pkgs.helm
     pkgs.kubectl
     pkgs.ansible
+    pkgs.go-task
   ];
 
   home.file = {
