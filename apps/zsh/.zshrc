@@ -194,6 +194,7 @@ zsh-bat
 source $ZSH/oh-my-zsh.sh
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
+export OP_BIOMETRIC_UNLOCK_ENABLED=true
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
