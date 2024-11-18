@@ -6,9 +6,6 @@
   home.stateVersion = "24.05"; # Please read the comment before changing.
   nixpkgs.config.allowUnfree = true;
 
-  imports = [
-    ./apps/git/git.nix
-  ];
 
   home.packages = [
     pkgs.neovim
