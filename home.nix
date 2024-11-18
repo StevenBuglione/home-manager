@@ -32,7 +32,6 @@
   ];
 
   home.file = {
-    ".bashrc".source = ./apps/bash/.bashrc;
     ".config/fastfetch/config.jsonc".source = ./apps/fastfetch/config.jsonc;
     ".config/starship.toml".source = ./apps/starship/starship.toml;
     ".config/kitty/kitty.conf".source = ./apps/kitty/kitty.conf;
