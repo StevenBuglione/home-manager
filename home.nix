@@ -2,7 +2,7 @@
 
 {
   home.username = "sbuglione";
-  home.homeDirectory = "/home/sbuglione";
+  home.homeDirectory = "/home/sbuglione/distro/fedora/fedora-41-main/sbuglione";
   home.stateVersion = "24.05"; # Please read the comment before changing.
   nixpkgs.config.allowUnfree = true;
 
