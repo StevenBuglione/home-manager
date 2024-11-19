@@ -33,7 +33,6 @@
     ".config/starship.toml".source = ./apps/starship/starship.toml;
     ".config/kitty/kitty.conf".source = ./apps/kitty/kitty.conf;
     ".local/share/fonts/JetbrainsMono".source = ./apps/fonts/JetbrainsMono;
-    ".ssh/config".source = ./apps/ssh/config;
     ".zshrc".source = ./apps/zsh/.zshrc;
     ".oh-my-zsh/custom/plugins/zsh-autosuggestions".source = ./apps/zsh/plugins/zsh-autosuggestions;
     ".oh-my-zsh/custom/plugins/zsh-syntax-highlighting".source = ./apps/zsh/plugins/zsh-syntax-highlighting;
