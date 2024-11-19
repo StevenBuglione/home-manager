@@ -26,6 +26,7 @@
     pkgs.kubectl
     pkgs.ansible
     pkgs.go-task
+    pkgs.just
   ];
 
   home.file = {
