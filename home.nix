@@ -27,6 +27,7 @@
     pkgs.ansible
     pkgs.go-task
     pkgs.just
+    pkgs.go
   ];
 
   home.file = {
