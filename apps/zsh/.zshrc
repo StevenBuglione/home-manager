@@ -195,6 +195,8 @@ source $ZSH/oh-my-zsh.sh
 
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 export OP_BIOMETRIC_UNLOCK_ENABLED=true
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
