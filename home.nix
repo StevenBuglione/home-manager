@@ -1,8 +1,8 @@
-{ config, pkgs, homeDir ? "/default/home/directory", ... }:
+{ config, pkgs, ...}:
 
 {
-  home.username = "sbuglione";
-  home.homeDirectory = homeDir;
+  home.username = builtins.getEnv "USER";
+  home.homeDirectory = builtins.getEnv "HOME";
   home.stateVersion = "24.05"; # Please read the comment before changing.
   nixpkgs.config.allowUnfree = true;
 
