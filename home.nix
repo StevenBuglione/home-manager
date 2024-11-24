@@ -1,8 +1,8 @@
-{ config, pkgs, ... }:
+{ config, pkgs, homeDir ? "/default/home/directory", ... }:
 
 {
   home.username = "sbuglione";
-  home.homeDirectory = "/home/sbuglione/distro/fedora/fedora-41-main/sbuglione";
+  home.homeDirectory = homeDir;
   home.stateVersion = "24.05"; # Please read the comment before changing.
   nixpkgs.config.allowUnfree = true;
 
